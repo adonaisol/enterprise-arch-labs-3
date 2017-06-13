@@ -40,19 +40,4 @@
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager"/>
     <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
 
-
-    <!--<bean id="hibernateProperties"-->
-          <!--class="org.springframework.beans.factory.config.PropertiesFactoryBean">-->
-        <!--<property name="properties">-->
-            <!--<props>-->
-                <!--<prop key="hibernate.hbm2ddl.auto">create</prop>-->
-                <!--<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>-->
-                <!--<prop key="connection.pool.size">1</prop>-->
-                <!--<prop key="hibernate.show_sql">true</prop>-->
-                <!--<prop key="hibernate.id.new_generator_mappings">false</prop>-->
-                <!--&lt;!&ndash;<prop key="hibernate.current_session_context_class">thread</prop> &ndash;&gt;-->
-            <!--</props>-->
-        <!--</property>-->
-    <!--</bean>-->
-
 </beans>
